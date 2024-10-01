@@ -1,0 +1,117 @@
+html{
+        color: #fff;
+}
+
+body {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 15px;
+}
+
+.container {
+        width: 800px;
+        height: 402px;
+        background-image: url('/desafio-html-css-js/src/img/bg-repeat.jpg');
+        background-repeat: repeat;
+        background-position: center;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+.text-container {
+        margin-right: 60px;
+        width: 300px;
+}
+
+.text-container h1 {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 900;
+        margin-bottom: 11px;
+}
+
+.text-container p {
+        color: #fff;
+        font-size: 15px;
+        font-weight: 400;
+}
+
+.form-contato {
+        width: 100%;
+        height: 100%;
+}
+
+.form-contato div {
+        margin-bottom: 15px;
+}
+
+.form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 340px;
+        height: 378px;
+        background-color: #fff;
+        padding: 21px;
+}
+
+.form-container input, .form-container textarea {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 0.5rem;
+        box-sizing: border-box;
+        font-size: 15px;
+        font-weight: 700;
+        color: #A8A8A8;
+}
+
+.campo-obrigatorio {
+        color: #000;
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 20px;
+}
+
+.form-container button[type="submit"] {
+        width: 100%;
+        padding: 1rem;
+        background-color: #3CCC87;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 700;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+}
+
+.form-container button[type="submit"]:hover {
+        background-color: #3CCC87;
+}
+
+.error {
+        border: 1px solid #ff0000;
+}
+
+.error-message {
+        color: #ff0000;
+        font-size: 8px;
+        font-weight: 400;
+        margin-bottom: 6px;
+}
+
+.success {
+        border: 1px solid #00ff00;
+}
+
+.success-message {
+        color: #00ff00;
+        font-size: 12px;
+        margin-top: 5px;
+}
