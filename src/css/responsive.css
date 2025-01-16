@@ -1,0 +1,36 @@
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: var(--spacing);
+    transform: translate(0, 10%);
+  }
+
+  .text-container {
+    margin-bottom: var(--spacing);
+    text-align: center;
+  }
+
+  .form-container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: var(--font-size-small);
+  }
+
+  .container {
+    width: 90%;
+    padding: var(--spacing);
+  }
+
+  .form-container input,
+  .form-container textarea {
+    font-size: var(--font-size-small);
+  }
+
+  .form-container button[type="submit"] {
+    padding: 0.75rem;
+  }
+}
